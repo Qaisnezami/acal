@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #50d8af;
+  color: #0c2e8a;
   transition: 0.5s;
 }
 
@@ -509,18 +509,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
-.section-header h2::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #50d8af;
-  bottom: 0;
-  left: 0;
+.section-header h2 {
+  border-bottom: 1px solid #7a7a7a;
+  display: inline-flexbox;
+  text-align: center !important;
 }
 
 .section-header p {
