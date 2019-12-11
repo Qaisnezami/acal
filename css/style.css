@@ -586,6 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
+  height: 200px;
   padding: 40px;
   margin-bottom: 40px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
@@ -646,6 +647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients img {
+  width: 50% !important;
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
@@ -1237,4 +1239,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 {
   font-size: 20px !important;
   color: black;
+}
+
+.carousel-head
+
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
