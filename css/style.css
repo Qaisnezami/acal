@@ -1241,6 +1241,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: black;
 }
 
+#footer .social-links i
+{
+  padding: 20px;
+  border: 1px solid black;
+}
+#footer .social-links i:hover
+{
+  background: black;
+  color: white;
+}
+
 .carousel-head
 
 {
@@ -1249,3 +1260,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
